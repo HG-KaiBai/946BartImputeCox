@@ -5,28 +5,35 @@ library(survival)
 library(parallel)
 library(rje)
 options(warn = -1)
+# One simulation loop
+# Input:
+#    seed: Data generation seed
+#    missing_rate: For MCAR, the probability of missing
+#    method: Type of missing, MCAR or MAR
+# Output:
+#    A list contains the squared error of estimation, 95% CI cover rate and length for BART, MICE and COX regression
 simu <- function(seed, missing_rate, method){
-  true_beta = c(0.3, -0.2, 0.5)
+  true_beta = c(0.3, -0.2, 0.5) # The tree hazard ratio for covariates in test_data
   res = c()
   X = test_data(seed, n = 500, mis = missing_rate, method = method)
-  T = X$observe
-  C = X$status
-  X = X[, -c(1, 2)]
+  T = X$observe  # Time
+  C = X$status   # Censoring indicator
+  X = X[, -c(1, 2)]  # Only keep covariates
 
   # BART method
-  covariate_types = c(1, 2, 1)
-  missing_covariate_start = 1
+  covariate_types = c(1, 2, 1)  # 1: continuous, 2: binary
+  missing_covariate_start = 1  # Start missing 
   dataset = as.matrix(X)
   result = CBI(T, C, dataset, covariate_types, missing_covariate_start, num_iterations = 1000,burn_in = 200)
   beta = result$beta
-  estimate = colMeans(beta)
+  estimate = colMeans(beta)  # Estimation
   CI = apply(beta, 2, quantile, probs = c(0.025,0.975))
   square_error = (true_beta - estimate)^2
   cover = (CI[1,] < true_beta) & (CI[2,] > true_beta)
-  length = CI[2,] - CI[1,]
+  length = CI[2,] - CI[1,]  # Check 95% CI cover rate and length
   res = c(res, square_error, cover, length)
 
-  # MICE method
+  # MICE method do the mice and combine with the rubin's rule
   imp = mice(X, m = 5, method = c("pmm", "logreg", "pmm"), seed = seed)
   fit = with(imp, coxph(Surv(T, C) ~ x1 + x2 + x3))
   mod = summary(pool(fit))
@@ -37,7 +44,7 @@ simu <- function(seed, missing_rate, method){
   length = CI[,2] - CI[,1]
   res = c(res, square_error, cover, length)
 
-  # Remove all the data
+  # Remove all the data, do the cox regression by removing all data with NA values
   mod = coxph(Surv(T, C) ~ X[,1] + X[,2] + X[,3])
   estimate = coef(mod)
   CI = confint(mod)
@@ -48,7 +55,7 @@ simu <- function(seed, missing_rate, method){
   return(res)
 }
 
-
+# R times simulation function
 main <- function(R, missing_rate, method){
   num_cores <- detectCores() - 1
   result = mclapply(1:R, function(t) simu(t, missing_rate, method), mc.cores = num_cores)
@@ -69,19 +76,15 @@ main <- function(R, missing_rate, method){
 }
 
 
-start.time <- Sys.time()
-main(500, 0.2, "MCAR")
-print(Sys.time() - start.time)
-
-
-start.time <- Sys.time()
-main(500, 0.5, "MCAR")
-print(Sys.time() - start.time)
-
-start.time <- Sys.time()
-main(500, 0.2, "MAR")
-print(Sys.time() - start.time)
-
-start.time <- Sys.time()
-main(500, 0.5, "MAR")
-print(Sys.time() - start.time)
+#start.time <- Sys.time()
+#main(500, 0.2, "MCAR")
+#print(Sys.time() - start.time)
+#start.time <- Sys.time()
+#main(500, 0.5, "MCAR")
+#print(Sys.time() - start.time)
+#start.time <- Sys.time()
+#main(500, 0.2, "MAR")
+#print(Sys.time() - start.time)
+#start.time <- Sys.time()
+#main(500, 0.5, "MAR")
+#print(Sys.time() - start.time)
