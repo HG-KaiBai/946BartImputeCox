@@ -50,8 +50,8 @@ simu <- function(seed, missing_rate, method){
 
 
 main <- function(R, missing_rate, method){
-  #num_cores <- detectCores() - 1
-  result = mclapply(1:R, function(t) simu(t, missing_rate, method), mc.cores = 10)
+  num_cores <- detectCores() - 1
+  result = mclapply(1:R, function(t) simu(t, missing_rate, method), mc.cores = num_cores)
   result = do.call(rbind, result)
   colnames(result) =c("BART_square_error1", "BART_square_error2","BART_square_error3",
                       "BART_cover1", "BART_cover2","BART_cover3",
