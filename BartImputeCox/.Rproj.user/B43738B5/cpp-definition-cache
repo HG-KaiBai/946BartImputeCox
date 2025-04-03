@@ -1,0 +1,1480 @@
+[
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/CBI.cpp",
+        "file_last_write": 1743618682.0,
+        "definitions": [
+            {
+                "usr": "c:@F@cCBI#&$@N@std@S@vector>#d#$@N@std@S@allocator>#d#&$@N@std@S@vector>#I#$@N@std@S@allocator>#I#&$@N@std@S@vector>#S1_#$@N@std@S@allocator>#S1_#&1S4_#&1$@N@std@S@vector>#S4_#$@N@std@S@allocator>#S4_#&1S1_#k#k#S0_#S0_#S13_#S13_#S13_#S13_#k#I#d#d#d#d#d#d#d#k#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "cCBI(std::vector<double> &, std::vector<int> &, std::vector<std::vector<double>> &, const std::vector<int> &, const std::vector<std::vector<int>> &, const std::vector<double> &, size_t, size_t, std::vector<double> &, std::vector<double> &, const std::vector<double> &, const std::vector<double> &, const std::vector<double> &, const std::vector<double> &, size_t, int, double, double, double, double, double, double, double, size_t)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/CBI.cpp",
+                "line": 17,
+                "column": 6,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.cpp",
+        "file_last_write": 1743453819.0,
+        "definitions": [
+            {
+                "usr": "c:@S@bart@F@operator=#&1$@S@bart#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "operator=(const bart &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.cpp",
+                "line": 50,
+                "column": 13,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bart@F@setm#k#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "setm(size_t)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.cpp",
+                "line": 91,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bart@F@setxinfo#&$@N@std@S@vector>#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#$@N@std@S@allocator>#S2_#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "setxinfo(xinfo &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.cpp",
+                "line": 100,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bart@F@setdata#k#k#*d#S0_#k#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "setdata(size_t, size_t, double *, double *, size_t)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.cpp",
+                "line": 111,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bart@F@setdata#k#k#*d#S0_#*I#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "setdata(size_t, size_t, double *, double *, int *)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.cpp",
+                "line": 119,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bart@F@predict#k#k#*d#S0_#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "predict(size_t, size_t, double *, double *)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.cpp",
+                "line": 144,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bart@F@draw#d#&$@S@rn#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "draw(double, rn &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.cpp",
+                "line": 158,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bart@F@pr#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "pr",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.cpp",
+                "line": 179,
+                "column": 12,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.h",
+        "file_last_write": 1743453845.0,
+        "definitions": [
+            {
+                "usr": "c:@S@bart",
+                "kind": 2,
+                "parent_name": "",
+                "name": "bart",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.h",
+                "line": 31,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bart@F@getm#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "getm",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.h",
+                "line": 48,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bart@F@setpi#&$@S@pinfo#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "setpi(pinfo &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.h",
+                "line": 52,
+                "column": 9,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bart@F@setprior#d#d#d#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "setprior(double, double, double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.h",
+                "line": 53,
+                "column": 9,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bart@F@setdart#d#d#d#b#b#d#d#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "setdart(double, double, double, bool, bool, double, double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.h",
+                "line": 55,
+                "column": 9,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bart@F@startdart#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "startdart",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.h",
+                "line": 68,
+                "column": 9,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bart@F@settau#d#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "settau(double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.h",
+                "line": 69,
+                "column": 9,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bart@F@gettree#k#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "gettree(size_t)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.h",
+                "line": 70,
+                "column": 10,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bart@F@getxinfo#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "getxinfo",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.h",
+                "line": 71,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bart@F@getnv#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "getnv",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.h",
+                "line": 73,
+                "column": 25,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bart@F@getpv#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "getpv",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.h",
+                "line": 74,
+                "column": 25,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bart@F@gettheta#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "gettheta",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.h",
+                "line": 75,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bart@F@getp#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "getp",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.h",
+                "line": 76,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bart@F@birth#k#k#k#k#d#d#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "birth(size_t, size_t, size_t, size_t, double, double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.h",
+                "line": 79,
+                "column": 9,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bart@F@death#k#k#d#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "death(size_t, size_t, double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.h",
+                "line": 81,
+                "column": 9,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bart@F@tonull#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "tonull",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.h",
+                "line": 84,
+                "column": 9,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bart@F@f#k#",
+                "kind": 7,
+                "parent_name": "bart",
+                "name": "f(size_t)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bart.h",
+                "line": 88,
+                "column": 11,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bartfuns.cpp",
+        "file_last_write": 1742414824.0,
+        "definitions": [
+            {
+                "usr": "c:@F@makexinfo#k#k#*d#&$@N@std@S@vector>#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#$@N@std@S@allocator>#S3_#k#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "makexinfo(size_t, size_t, double *, xinfo &, size_t)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bartfuns.cpp",
+                "line": 24,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@makexinfo#k#k#*d#&$@N@std@S@vector>#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#$@N@std@S@allocator>#S3_#*I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "makexinfo(size_t, size_t, double *, xinfo &, int *)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bartfuns.cpp",
+                "line": 32,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@getpb#&$@S@tree#&$@N@std@S@vector>#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#$@N@std@S@allocator>#S4_#&$@S@pinfo#&$@N@std@S@vector>#*S1_#$@N@std@S@allocator>#S11_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "getpb(tree &, xinfo &, pinfo &, tree::npv &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bartfuns.cpp",
+                "line": 57,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@getsuff#&$@S@tree#*S1_#k#k#&$@N@std@S@vector>#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#$@N@std@S@allocator>#S5_#&$@S@dinfo#&k#&d#S10_#S11_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "getsuff(tree &, tree::tree_p, size_t, size_t, xinfo &, dinfo &, size_t &, double &, size_t &, double &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bartfuns.cpp",
+                "line": 74,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@lh#k#d#d#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "lh(size_t, double, double, double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bartfuns.cpp",
+                "line": 95,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@pgrow#*$@S@tree#&$@N@std@S@vector>#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#$@N@std@S@allocator>#S4_#&$@S@pinfo#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "pgrow(tree::tree_p, xinfo &, pinfo &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bartfuns.cpp",
+                "line": 104,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@getsuff#&$@S@tree#*S1_#S2_#&$@N@std@S@vector>#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#$@N@std@S@allocator>#S5_#&$@S@dinfo#&k#&d#S10_#S11_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "getsuff(tree &, tree::tree_p, tree::tree_p, xinfo &, dinfo &, size_t &, double &, size_t &, double &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bartfuns.cpp",
+                "line": 114,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@allsuff#&$@S@tree#&$@N@std@S@vector>#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#$@N@std@S@allocator>#S4_#&$@S@dinfo#&$@N@std@S@vector>#*S1_#$@N@std@S@allocator>#S11_#&$@N@std@S@vector>#k#$@N@std@S@allocator>#k#&S4_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "allsuff(tree &, xinfo &, dinfo &, tree::npv &, std::vector<size_t> &, std::vector<double> &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bartfuns.cpp",
+                "line": 135,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@drmu#&$@S@tree#&$@N@std@S@vector>#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#$@N@std@S@allocator>#S4_#&$@S@dinfo#&$@S@pinfo#d#&$@S@rn#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "drmu(tree &, xinfo &, dinfo &, pinfo &, double, rn &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bartfuns.cpp",
+                "line": 163,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@bprop#&$@S@tree#&$@N@std@S@vector>#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#$@N@std@S@allocator>#S4_#&$@S@pinfo#&$@N@std@S@vector>#*S1_#$@N@std@S@allocator>#S11_#&d#&S11_#&k#S15_#S13_#&$@N@std@S@vector>#k#$@N@std@S@allocator>#k#&S4_#b#&$@S@rn#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "bprop(tree &, xinfo &, pinfo &, tree::npv &, double &, tree::tree_p &, size_t &, size_t &, double &, std::vector<size_t> &, std::vector<double> &, bool, rn &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bartfuns.cpp",
+                "line": 175,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@dprop#&$@S@tree#&$@N@std@S@vector>#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#$@N@std@S@allocator>#S4_#&$@S@pinfo#&$@N@std@S@vector>#*S1_#$@N@std@S@allocator>#S11_#&d#&S11_#S13_#&$@S@rn#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "dprop(tree &, xinfo &, pinfo &, tree::npv &, double &, tree::tree_p &, double &, rn &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bartfuns.cpp",
+                "line": 306,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@drawnodemu#k#d#d#d#&$@S@rn#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "drawnodemu(size_t, double, double, double, rn &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bartfuns.cpp",
+                "line": 346,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@log_sum_exp#&$@N@std@S@vector>#d#$@N@std@S@allocator>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "log_sum_exp(std::vector<double> &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bartfuns.cpp",
+                "line": 354,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@draw_s#&$@N@std@S@vector>#k#$@N@std@S@allocator>#k#&$@N@std@S@vector>#d#$@N@std@S@allocator>#d#&d#&$@S@rn#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "draw_s(std::vector<size_t> &, std::vector<double> &, double &, rn &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bartfuns.cpp",
+                "line": 365,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@draw_theta0#b#&d#&$@N@std@S@vector>#d#$@N@std@S@allocator>#d#d#d#d#&$@S@rn#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "draw_theta0(bool, double &, std::vector<double> &, double, double, double, rn &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bartfuns.cpp",
+                "line": 376,
+                "column": 6,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bartfuns.h",
+        "file_last_write": 1607093645.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bd.cpp",
+        "file_last_write": 1742417698.0,
+        "definitions": [
+            {
+                "usr": "c:@F@bd#&$@S@tree#&$@N@std@S@vector>#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#$@N@std@S@allocator>#S4_#&$@S@dinfo#&$@S@pinfo#d#&$@N@std@S@vector>#k#$@N@std@S@allocator>#k#&S4_#b#&$@S@rn#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "bd(tree &, xinfo &, dinfo &, pinfo &, double, std::vector<size_t> &, std::vector<double> &, bool, rn &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bd.cpp",
+                "line": 22,
+                "column": 6,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/bd.h",
+        "file_last_write": 1607093645.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/common.h",
+        "file_last_write": 1742421670.0,
+        "definitions": [
+            {
+                "usr": "c:common.h@931@macro@RNG_Rcpp",
+                "kind": 9,
+                "parent_name": "",
+                "name": "RNG_Rcpp",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/common.h",
+                "line": 26,
+                "column": 9,
+                "hidden": false
+            },
+            {
+                "usr": "c:common.h@1285@macro@printf",
+                "kind": 9,
+                "parent_name": "",
+                "name": "printf",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/common.h",
+                "line": 53,
+                "column": 9,
+                "hidden": false
+            },
+            {
+                "usr": "c:common.h@1309@macro@cout",
+                "kind": 9,
+                "parent_name": "",
+                "name": "cout",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/common.h",
+                "line": 54,
+                "column": 9,
+                "hidden": false
+            },
+            {
+                "usr": "c:common.h@1361@macro@LTPI",
+                "kind": 9,
+                "parent_name": "",
+                "name": "LTPI",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/common.h",
+                "line": 59,
+                "column": 9,
+                "hidden": false
+            },
+            {
+                "usr": "c:common.h@1423@macro@RTPI",
+                "kind": 9,
+                "parent_name": "",
+                "name": "RTPI",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/common.h",
+                "line": 61,
+                "column": 9,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/cox_likelihood.cpp",
+        "file_last_write": 1743524721.0,
+        "definitions": [
+            {
+                "usr": "c:@F@compute_cumulative_baseline_hazard#&1$@N@std@S@vector>#d#$@N@std@S@allocator>#d#S0_#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "compute_cumulative_baseline_hazard(const std::vector<double> &, const std::vector<double> &, const std::vector<double> &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/cox_likelihood.cpp",
+                "line": 6,
+                "column": 53,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@compute_individual_likelihood#I#&1$@N@std@S@vector>#d#$@N@std@S@allocator>#d#S0_#d#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "compute_individual_likelihood(int, const std::vector<double> &, const std::vector<double> &, double, double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/cox_likelihood.cpp",
+                "line": 28,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@compute_cox_likelihood#&1$@N@std@S@vector>#d#$@N@std@S@allocator>#d#&1$@N@std@S@vector>#I#$@N@std@S@allocator>#I#&1$@N@std@S@vector>#S1_#$@N@std@S@allocator>#S1_#S0_#S0_#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "compute_cox_likelihood(const std::vector<double> &, const std::vector<int> &, const std::vector<std::vector<double>> &, const std::vector<double> &, const std::vector<double> &, const std::vector<double> &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/cox_likelihood.cpp",
+                "line": 41,
+                "column": 8,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/cox_likelihood.h",
+        "file_last_write": 1743523736.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/fitbart.cpp",
+        "file_last_write": 1743525865.0,
+        "definitions": [
+            {
+                "usr": "c:@F@initialize_bart#I#&1$@N@std@S@vector>#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#$@N@std@S@allocator>#S2_#&1S2_#S5_#k#I#d#d#d#d#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "initialize_bart(int, const std::vector<std::vector<double>> &, const std::vector<double> &, const std::vector<double> &, size_t, int, double, double, double, double, double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/fitbart.cpp",
+                "line": 13,
+                "column": 25,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@update_bart#&1$@S@bart#&d#&1$@N@std@S@vector>#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#$@N@std@S@allocator>#S5_#&1S5_#S8_#I#I#d#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "update_bart(const bart &, double &, const std::vector<std::vector<double>> &, const std::vector<double> &, const std::vector<double> &, int, int, double, double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/fitbart.cpp",
+                "line": 77,
+                "column": 25,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@predict_bart#&$@S@bart#&1$@N@std@S@vector>#d#$@N@std@S@allocator>#d#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "predict_bart(bart &, const std::vector<double> &, double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/fitbart.cpp",
+                "line": 127,
+                "column": 8,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/fitbart.h",
+        "file_last_write": 1743525877.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/info.h",
+        "file_last_write": 1742420883.0,
+        "definitions": [
+            {
+                "usr": "c:@S@dinfo",
+                "kind": 2,
+                "parent_name": "",
+                "name": "dinfo",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/info.h",
+                "line": 24,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@pinfo",
+                "kind": 2,
+                "parent_name": "",
+                "name": "pinfo",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/info.h",
+                "line": 33,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@pinfo@F@pr#",
+                "kind": 7,
+                "parent_name": "pinfo",
+                "name": "pr",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/info.h",
+                "line": 44,
+                "column": 9,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/lambda.cpp",
+        "file_last_write": 1607093645.0,
+        "definitions": [
+            {
+                "usr": "c:@F@draw_lambda_prior#*d#I#&$@S@rn#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "draw_lambda_prior(double *, int, rn &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/lambda.cpp",
+                "line": 37,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@draw_lambda_i#d#d#I#I#&$@S@rn#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "draw_lambda_i(double, double, int, int, rn &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/lambda.cpp",
+                "line": 55,
+                "column": 8,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/lambda.h",
+        "file_last_write": 1742421657.0,
+        "definitions": [
+            {
+                "usr": "c:lambda.h@903@macro@GUARD_lambda",
+                "kind": 9,
+                "parent_name": "",
+                "name": "GUARD_lambda",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/lambda.h",
+                "line": 22,
+                "column": 9,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/prior_likelihood.cpp",
+        "file_last_write": 1743525406.0,
+        "definitions": [
+            {
+                "usr": "c:@F@GammaLikelihood#d#d#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "GammaLikelihood(double, double, double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/prior_likelihood.cpp",
+                "line": 6,
+                "column": 9,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@NormalLikelihood#d#d#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "NormalLikelihood(double, double, double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/prior_likelihood.cpp",
+                "line": 20,
+                "column": 8,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/prior_likelihood.h",
+        "file_last_write": 1743525333.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/rn.h",
+        "file_last_write": 1742444194.0,
+        "definitions": [
+            {
+                "usr": "c:@S@rn",
+                "kind": 2,
+                "parent_name": "",
+                "name": "rn",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/rn.h",
+                "line": 27,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@arn",
+                "kind": 2,
+                "parent_name": "",
+                "name": "arn",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/rn.h",
+                "line": 197,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@arn@F@normal#",
+                "kind": 7,
+                "parent_name": "arn",
+                "name": "normal",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/rn.h",
+                "line": 205,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@arn@F@uniform#",
+                "kind": 7,
+                "parent_name": "arn",
+                "name": "uniform",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/rn.h",
+                "line": 206,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@arn@F@chi_square#d#",
+                "kind": 7,
+                "parent_name": "arn",
+                "name": "chi_square(double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/rn.h",
+                "line": 207,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@arn@F@exp#",
+                "kind": 7,
+                "parent_name": "arn",
+                "name": "exp",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/rn.h",
+                "line": 208,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@arn@F@log_gamma#d#",
+                "kind": 7,
+                "parent_name": "arn",
+                "name": "log_gamma(double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/rn.h",
+                "line": 209,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@arn@F@gamma#d#d#",
+                "kind": 7,
+                "parent_name": "arn",
+                "name": "gamma(double, double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/rn.h",
+                "line": 213,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@arn@F@beta#d#d#",
+                "kind": 7,
+                "parent_name": "arn",
+                "name": "beta(double, double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/rn.h",
+                "line": 234,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@arn@F@discrete#",
+                "kind": 7,
+                "parent_name": "arn",
+                "name": "discrete",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/rn.h",
+                "line": 238,
+                "column": 17,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@arn@F@geometric#d#",
+                "kind": 7,
+                "parent_name": "arn",
+                "name": "geometric(double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/rn.h",
+                "line": 254,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@arn@F@set_wts#&$@N@std@S@vector>#d#$@N@std@S@allocator>#d#",
+                "kind": 7,
+                "parent_name": "arn",
+                "name": "set_wts(std::vector<double> &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/rn.h",
+                "line": 255,
+                "column": 16,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@arn@F@log_dirichlet#&$@N@std@S@vector>#d#$@N@std@S@allocator>#d#",
+                "kind": 7,
+                "parent_name": "arn",
+                "name": "log_dirichlet(std::vector<double> &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/rn.h",
+                "line": 261,
+                "column": 31,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/rtnorm.cpp",
+        "file_last_write": 1743053080.0,
+        "definitions": [
+            {
+                "usr": "c:@F@rtnorm#d#d#d#&$@S@rn#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "rtnorm(double, double, double, rn &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/rtnorm.cpp",
+                "line": 39,
+                "column": 8,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/rtnorm.h",
+        "file_last_write": 1743105688.0,
+        "definitions": [
+            {
+                "usr": "c:rtnorm.h@903@macro@GUARD_rtnorm",
+                "kind": 9,
+                "parent_name": "",
+                "name": "GUARD_rtnorm",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/rtnorm.h",
+                "line": 22,
+                "column": 9,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/testbart.cpp",
+        "file_last_write": 1743525451.0,
+        "definitions": [
+            {
+                "usr": "c:@F@initialize_and_predict#I#&1$@N@std@S@vector>#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#$@N@std@S@allocator>#S2_#&1S2_#S5_#S5_#d#k#I#d#d#d#d#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "initialize_and_predict(int, const std::vector<std::vector<double>> &, const std::vector<double> &, const std::vector<double> &, const std::vector<double> &, double, size_t, int, double, double, double, double, double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/testbart.cpp",
+                "line": 7,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@initialize_update_and_predict#I#&1$@N@std@S@vector>#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#$@N@std@S@allocator>#S2_#&1S2_#S5_#S5_#d#k#I#d#d#d#d#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "initialize_update_and_predict(int, const std::vector<std::vector<double>> &, const std::vector<double> &, const std::vector<double> &, const std::vector<double> &, double, size_t, int, double, double, double, double, double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/testbart.cpp",
+                "line": 49,
+                "column": 8,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/testbart.h",
+        "file_last_write": 1743525816.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+        "file_last_write": 1742417144.0,
+        "definitions": [
+            {
+                "usr": "c:@S@tree@F@nid#1",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "nid",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 24,
+                "column": 14,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@getptr#k#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "getptr(size_t)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 31,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@birth#k#k#k#d#d#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "birth(size_t, size_t, size_t, double, double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 43,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@depth#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "depth",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 70,
+                "column": 14,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@treesize#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "treesize",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 77,
+                "column": 14,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@ntype#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "ntype",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 84,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@pr#b#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "pr(bool)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 94,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@death#k#d#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "death(size_t, double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 123,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@isnog#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "isnog",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 146,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@nnogs#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "nnogs",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 157,
+                "column": 14,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@nbots#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "nbots",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 167,
+                "column": 14,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@getbots#&$@N@std@S@vector>#*$@S@tree#$@N@std@S@allocator>#S2_#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "getbots(tree::npv &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 177,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@getnogs#&$@N@std@S@vector>#*$@S@tree#$@N@std@S@allocator>#S2_#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "getnogs(tree::npv &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 188,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@getnodes#&$@N@std@S@vector>#*$@S@tree#$@N@std@S@allocator>#S2_#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "getnodes(tree::npv &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 201,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@getnodes#&$@N@std@S@vector>#*1$@S@tree#$@N@std@S@allocator>#S2_#1",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "getnodes(tree::cnpv &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 209,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@bn#*d#&$@N@std@S@vector>#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#$@N@std@S@allocator>#S3_#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "bn(double *, xinfo &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 218,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@rg#k#*I#S0_#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "rg(size_t, int *, int *)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 229,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@tonull#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "tonull",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 248,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@cp#*$@S@tree#*1S1_#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "cp(tree::tree_p, tree::tree_cp)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 269,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@operator=#&1$@S@tree#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "operator=(const tree &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 293,
+                "column": 13,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@operator<<#&$@N@std@S@basic_ostream>#C#$@N@std@S@char_traits>#C#&1$@S@tree#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "operator<<(std::ostream &, const tree &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 303,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@operator>>#&$@N@std@S@basic_istream>#C#$@N@std@S@char_traits>#C#&$@S@tree#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "operator>>(std::istream &, tree &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 316,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@birthp#*$@S@tree#k#k#d#d#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "birthp(tree::tree_p, size_t, size_t, double, double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 364,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@deathp#*$@S@tree#d#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "deathp(tree::tree_p, double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 378,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@getbadcut#k#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "getbadcut(size_t)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 389,
+                "column": 14,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@tree2list#&$@N@std@S@vector>#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#$@N@std@S@allocator>#S2_#d#d#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "tree2list(xinfo &, double, double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 403,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@tree2count#k#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "tree2count(size_t)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.cpp",
+                "line": 454,
+                "column": 27,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.h",
+        "file_last_write": 1742417143.0,
+        "definitions": [
+            {
+                "usr": "c:tree.h@T@vec_d",
+                "kind": 8,
+                "parent_name": "",
+                "name": "vec_d",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.h",
+                "line": 30,
+                "column": 29,
+                "hidden": false
+            },
+            {
+                "usr": "c:tree.h@T@xinfo",
+                "kind": 8,
+                "parent_name": "",
+                "name": "xinfo",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.h",
+                "line": 31,
+                "column": 28,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@node_info",
+                "kind": 3,
+                "parent_name": "",
+                "name": "node_info",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.h",
+                "line": 35,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree",
+                "kind": 2,
+                "parent_name": "",
+                "name": "tree",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.h",
+                "line": 43,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:tree.h@S@tree@T@tree_p",
+                "kind": 8,
+                "parent_name": "",
+                "name": "tree_p",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.h",
+                "line": 48,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:tree.h@S@tree@T@tree_cp",
+                "kind": 8,
+                "parent_name": "",
+                "name": "tree_cp",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.h",
+                "line": 49,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:tree.h@S@tree@T@npv",
+                "kind": 8,
+                "parent_name": "",
+                "name": "npv",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.h",
+                "line": 50,
+                "column": 32,
+                "hidden": false
+            },
+            {
+                "usr": "c:tree.h@S@tree@T@cnpv",
+                "kind": 8,
+                "parent_name": "",
+                "name": "cnpv",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.h",
+                "line": 51,
+                "column": 33,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@settheta#d#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "settheta(double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.h",
+                "line": 62,
+                "column": 9,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@setv#k#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "setv(size_t)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.h",
+                "line": 63,
+                "column": 9,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@setc#k#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "setc(size_t)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.h",
+                "line": 64,
+                "column": 9,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@gettheta#1",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "gettheta",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.h",
+                "line": 66,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@getv#1",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "getv",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.h",
+                "line": 67,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@getc#1",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "getc",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.h",
+                "line": 68,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@getp#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "getp",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.h",
+                "line": 69,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@getl#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "getl",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.h",
+                "line": 70,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@tree@F@getr#",
+                "kind": 7,
+                "parent_name": "tree",
+                "name": "getr",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/tree.h",
+                "line": 71,
+                "column": 11,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/treefuns.cpp",
+        "file_last_write": 1742415101.0,
+        "definitions": [
+            {
+                "usr": "c:@F@prxi#&$@N@std@S@vector>#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#$@N@std@S@allocator>#S2_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "prxi(xinfo &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/treefuns.cpp",
+                "line": 24,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@grm#&$@S@tree#&$@N@std@S@vector>#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#$@N@std@S@allocator>#S4_#&$@N@std@S@basic_ostream>#C#$@N@std@S@char_traits>#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "grm(tree &, xinfo &, std::ostream &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/treefuns.cpp",
+                "line": 35,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@fit#&$@S@tree#&$@N@std@S@vector>#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#$@N@std@S@allocator>#S4_#k#k#*d#S7_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "fit(tree &, xinfo &, size_t, size_t, double *, double *)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/treefuns.cpp",
+                "line": 58,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@cansplit#*$@S@tree#&$@N@std@S@vector>#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#$@N@std@S@allocator>#S4_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "cansplit(tree::tree_p, xinfo &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/treefuns.cpp",
+                "line": 68,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@getgoodvars#*$@S@tree#&$@N@std@S@vector>#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#$@N@std@S@allocator>#S4_#&$@N@std@S@vector>#k#$@N@std@S@allocator>#k#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "getgoodvars(tree::tree_p, xinfo &, std::vector<size_t> &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/treefuns.cpp",
+                "line": 83,
+                "column": 6,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/treefuns.h",
+        "file_last_write": 1607093645.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/update_bh.cpp",
+        "file_last_write": 1743533854.0,
+        "definitions": [
+            {
+                "usr": "c:@F@mh_beta#&1$@N@std@S@vector>#d#$@N@std@S@allocator>#d#S0_#S0_#S0_#&1$@N@std@S@vector>#I#$@N@std@S@allocator>#I#&1$@N@std@S@vector>#S1_#$@N@std@S@allocator>#S1_#S0_#S0_#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "mh_beta(const std::vector<double> &, const std::vector<double> &, const std::vector<double> &, const std::vector<double> &, const std::vector<int> &, const std::vector<std::vector<double>> &, const std::vector<double> &, const std::vector<double> &, double)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/update_bh.cpp",
+                "line": 10,
+                "column": 21,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@mh_h0#&1$@N@std@S@vector>#d#$@N@std@S@allocator>#d#S0_#S0_#&S1_#&$@N@std@S@vector>#I#$@N@std@S@allocator>#I#&1$@N@std@S@vector>#S1_#$@N@std@S@allocator>#S1_#S0_#S0_#d#&1$@N@std@S@vector>#$@N@std@S@pair>#$@S@bart#d#$@N@std@S@allocator>#S12_#k#&1S5_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "mh_h0(const std::vector<double> &, const std::vector<double> &, const std::vector<double> &, std::vector<double> &, std::vector<int> &, const std::vector<std::vector<double>> &, const std::vector<double> &, const std::vector<double> &, double, const std::vector<std::pair<bart, double>> &, size_t, const std::vector<int> &)",
+                "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/update_bh.cpp",
+                "line": 56,
+                "column": 21,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/yixin/Downloads/946/Final/BartImputeCox/src/update_bh.h",
+        "file_last_write": 1743533986.0,
+        "definitions": [],
+        "hidden": false
+    }
+]

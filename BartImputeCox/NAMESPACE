@@ -1,0 +1,5 @@
+#exportPattern("^[[:alpha:]]+")
+useDynLib(BartImputeCox, .registration = TRUE)
+export(cCBI)
+export(test_data)
+export(CBI)
