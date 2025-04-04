@@ -1,5 +1,5 @@
 # BartImputeCox: Bayesian Cox Regression with BART-Based Imputation for Missing Covariates
-Bayesian Cox regression under piecewise constant hazard assumption with BART based imputation for missing covariates. The package is based on the BART package by  Sparapani et al., which can be found at (doi:10.18637/jss.v097.i01).
+Bayesian Cox regression under piecewise constant hazard assumption with BART based imputation for missing covariates. The package is based on the BART package by  Sparapani et al., which can be found at doi:10.18637/jss.v097.i01.
 
 ## Installation
 
